@@ -2,9 +2,9 @@
 
 namespace Dadilev\Example\Tests;
 
+use Dadilev\Example\ExampleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Dadilev\Example\ExampleServiceProvider;
 
 class TestCase extends Orchestra
 {
